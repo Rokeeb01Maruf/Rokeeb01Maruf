@@ -1,0 +1,156 @@
+:root {
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+}
+
+@font-face {
+  font-family: YoungSerif;
+  src: url(YoungSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: Ale;
+  src: url(Ale.ttf);
+}
+
+@font-face {
+  font-family: head;
+  src: url(Outfit-SemiBold.ttf);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--Stone-150);
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.card {
+  width: 685px;
+  padding: 20px 20px 50px 20px;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.card1 {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.card1 .omelette {
+  font-size: 40px;
+  padding-top: 20px;
+  font-family: YoungSerif;
+}
+.card1 p {
+  font-family: Ale;
+  font-size: 16px;
+  padding-top: 20px;
+}
+.card2 .head1 {
+  color: var(--Rose-800);
+  padding-top: 30px;
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: bolder;
+  font-family: Ale;
+}
+
+.under .lim {
+  padding-left: 20px;
+  font-family: Ale;
+  padding-top: 10px;
+}
+.card3 {
+  padding-top: 50px;
+}
+.card3 .head2 {
+  color: var(--Brown-800);
+  font-family: YoungSerif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.under1 {
+  padding-left: 15px;
+}
+.under1 .l {
+  padding-left: 15px;
+  font-size: 16px;
+  font-family: Ale;
+  padding-top: 5px;
+}
+.card4 {
+  padding-top: 20px;
+  padding-left: 0px;
+}
+
+ol {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.card4 .head3 {
+  color: var(--Brown-800);
+  font-family: YoungSerif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+ol li {
+  padding-left: 20px;
+  padding-top: 8px;
+  font-family: Ale;
+}
+
+ol li::marker {
+  color: var(--Brown-800);
+  font-weight: bold;
+}
+
+.card5 {
+  padding-top: 50px;
+}
+.card5 .head4 {
+  color: var(--Brown-800);
+  font-family: YoungSerif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.card p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Ale;
+}
+
+table {
+  width: 100%;
+  height: 200px;
+  border-collapse: collapse;
+}
+
+table tr .c2 {
+  color: var(--Brown-800);
+  font-family: Ale;
+  font-size: 16px;
+  font-weight: bold;
+}
+table tr td {
+  font-family: Ale;
+  font-size: 16px;
+  border-spacing: 0;
+  border-bottom: 1.5px solid rgb(173, 164, 164);
+}
+
